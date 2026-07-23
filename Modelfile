@@ -1,4 +1,4 @@
-FROM ./KobbleTiny-Q6_K.gguf
+FROM ./MOONMILK-1.0-Q6_K.gguf
 
 TEMPLATE """{{ if .System }}<|im_start|>system
 {{ .System }}<|im_end|>
